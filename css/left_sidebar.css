@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+div#sidebar 							{width:220px; margin-left:9.3%;}
+
+div#accordion 							{width:220px; padding:0 0 5px 0;}
+#accordion h4 							{margin:0; padding:7px 5px 6px 7px; color:#fff; font-size:1.0em; }
+#accordion h4 a 						{display:block; color:#fff; text-decoration:none; padding-left:10px}
+* html #accordion h4 a 					{width:100%}
+#accordion h4 a:hover 					{color:#e4e4e4}
+#accordion h4.classroom-tables 			{background:#118AB0}
+#accordion h4.classroom-seating 		{background:#DB3224}
+#accordion h4.classroom-acc 			{background:#B2C732}
+#accordion h4.dining-furniture			{background:#E67026}
+#accordion h4.school-solutions 			{background:#FABF38}
+#accordion h4.office-furniture 			{background:#821A55}
+#accordion h4.steel-storage				{background:#343436}
+#accordion h4.office-seating 			{background:#429F4D}
+#accordion h4.reception					{background:#D1002C}
+#accordion h4.fabric					{background:#9872A9}
+
+#accordion div 							{width:200px; margin:0 10px 0 10px; text-align:left}
+#accordion ul 							{margin:0; margin-left:8px; width:180px; padding-left:5px; list-style-type:none; background-color:#fff}
+#accordion ul li 						{border-bottom: 1px solid #ccc; margin:0; padding:0; list-style-type:none; font-size:0.9em; line-height:1.5em; padding-top:5px; padding-bottom:5px;}
+#accordion ul li a 						{display:block; text-decoration:none; color:#000;}
+#accordian a 							{}
+#accordion ul li a:hover 				{color:#f5b843}
+* html li a 							{width:100%}
