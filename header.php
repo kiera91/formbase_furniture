@@ -9,11 +9,11 @@
 	</div>
 
 	<div class="details">
-		| <label id="title">Tel:</label>
-		<label id="value">020 8524 2162</label> |
-		<label id="title">Fax:</label>
-		<label id="value">020 8524 7562</label> |
-
+		<span class="title">| Tel:</span>
+		<span class="value">020 8524 2162</span>
+		<span class="title">| Fax:</span>
+		<span class="value">020 8524 7562</span>
+		<span>|</span>
 		<a href="mailto:sales@formbasefurniture.com?Subject=Enquiry" target="_top"> email us</a> |
 	</div>
 

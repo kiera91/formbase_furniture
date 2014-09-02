@@ -1,8 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-div#sidebar 							{width:220px; margin-left:9.2%;	display:inline-block;}
-
+div#sidebar 							{width: 19%;margin-left: 0;display: inline-block;}
 div#accordion 							{width:220px; padding:0 0 5px 0;}
 #accordion h4 							{margin:0; padding:7px 5px 6px 7px; color:#fff; font-size:1.0em; }
 #accordion h4 a 						{display:block; color:#fff; text-decoration:none; padding-left:10px}
@@ -19,7 +18,7 @@ div#accordion 							{width:220px; padding:0 0 5px 0;}
 #accordion h4.reception					{background:#D1002C}
 #accordion h4.fabric					{background:#9872A9}
 
-#accordion div 							{width:200px; margin:0 10px 0 10px; text-align:left}
+#accordion div 							{width: 200px;margin: 0;text-align: left;}
 #accordion ul 							{margin:0; margin-left:8px; width:180px; padding-left:5px; list-style-type:none; background-color:#fff}
 #accordion ul li 						{border-bottom: 1px solid #ccc; margin:0; padding:0; list-style-type:none; font-size:0.9em; line-height:1.5em; padding-top:5px; padding-bottom:5px;}
 #accordion ul li a 						{display:block; text-decoration:none; color:#000;}
