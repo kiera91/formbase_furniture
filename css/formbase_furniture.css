@@ -58,7 +58,7 @@
 	width: 70%;
 	height: 30px;
 	padding-top: 1%;
-	padding-left:10%;
+	padding-left:7%;
 }
 
 .topbar a {
@@ -90,11 +90,12 @@
 
 #slider1_container{
 	position: relative;
-	top: 0px;
-	left: 0px;
+	top: 5px;
+	left: 4%;
 	width: 690px;
 	height: 190px;
 	display:inline-block;
+	vertical-align: top;
 }	
 
 /* CAROUSEL END */
@@ -112,6 +113,13 @@ html {
 body{
 	background-image: url("../images/background.png");
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#content{
+	width:40%;
+	display:inline-block;
+	background-color:#FFFFFF;
+	
 }
 
 /* BODY END */

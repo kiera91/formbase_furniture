@@ -35,7 +35,7 @@
 				<a href="contact.php">contact us</a>
 			</li>
 			<li>
-				<a href="terms.php">terms and conditions</a>
+				<a href="terms.php">terms &amp; conditions</a>
 			</li>
 		</ul>
 	</div>
