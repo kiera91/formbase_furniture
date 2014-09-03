@@ -117,8 +117,18 @@
 	-moz-box-sizing:border-box;
 }
 
-html {
+html, body {
 	height: 100%;
+}
+
+.page_wrapper {
+	min-height: 100%;
+	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+	height: 100%;
+	margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+	height: 155px; /* .push must be the same height as .footer */
 }
 
 body{
@@ -154,17 +164,22 @@ header{
 
 /* FOOTER */
 
+footer{
+	position: relative;
+	max-width: 1200px;
+	width:100%; 
+	margin:0 auto; 	
+}
+
 .footer{
 	background-color: #002149;
 	color: #FFFFFF;
 	padding-left: 25%;
 	padding-top:30px;
-	padding-bottom:30px;
-	position:fixed;
 }
 
 .footer #footer_logo{
-	text-align: center;
+	display:inline-block;
 }
 
 .footer #footer_text{

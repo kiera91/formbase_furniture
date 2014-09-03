@@ -23,7 +23,7 @@
 				<a href="index.php">home</a>
 			</li>
 			<li>
-				<a href="download_catalogue.php">download catalogue</a>
+				<a href="catalogue/formbase-2014.pdf">download catalogue</a>
 			</li>
 			<li>
 				<a href="height_guide.php">height guide</a>
