@@ -21,7 +21,7 @@
 #formbase_search{
 	background-color: #f0f0f0;
 	border-radius: 5px;
-	width: 250px;
+	width: 25%;
 	height: 30px;
 	color: #d3d3d3;
 	border: 1px solid #d9d9d9;
@@ -35,7 +35,7 @@
 	color: #FFFFFF;
 	border: none;
 	height: 30px;
-	width: 30px;
+	width: 3%;
 	display:inline-block;
 }
 
@@ -94,18 +94,23 @@
 
 /* HEADER END */
 
+/* SIDEBAR */
+
+#accordion #category ul{
+	display:none;
+}
+
+.active{
+	
+}
+
+.not_active{
+	
+}
+
+/* SIDEBAR END */
+
 /* CAROUSEL */
-
-
-/*#slider1_container{
-	position: relative;
-	top: 5px;
-	left: 4%;
-	width: 690px;
-	height: 190px;
-	display:inline-block;
-	vertical-align: top;
-}	*/
 
 #slideshow-container #slideshow {
 	width: 690px;
@@ -121,7 +126,6 @@
 	height: 190px;
 	margin-bottom:10px;
 }
-
 
 /* CAROUSEL END */
 
@@ -166,6 +170,22 @@ header{
 	background-color: #f8f8f8;    
 }
 
+.category{
+	padding-top:3%;	
+	text-align:center;
+	padding-bottom:3%;
+}
+.category a {
+	width: 40%;
+	text-align:center;
+	padding: 3% 0 3% 1%;
+	border: 2px solid black;
+	display:inline-block;
+}
+
+.category a:hover{
+	background-color:#2fa0d9;
+}
 #welcome_text {
 	padding:20px;
 }

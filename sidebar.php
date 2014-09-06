@@ -4,7 +4,7 @@
 				<h4 class="classroom-tables"><a href="#">Classroom Tables</a></h4>
 				<ul>
 					<li>
-						<a href="classroom-tables/classroom-tables.pdf">Classroom Tables</a>
+						<a href="all_categories.php?product_group=T">Classroom Tables</a>
 					</li>
 					<li>
 						<a href="classroom-tables/bench-systems.pdf">Bench Systems</a>

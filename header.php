@@ -26,7 +26,7 @@
 				<a href="catalogue/formbase-2014.pdf">download catalogue</a>
 			</li>
 			<li>
-				<a href="height_guide.php">height guide</a>
+				<a href="all_categories.php">browse products</a>
 			</li>
 			<li>
 				<a href="delivery.php">delivery</a>
