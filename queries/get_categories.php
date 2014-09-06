@@ -46,7 +46,7 @@
 			$min_price = min($min_prices);
 			echo "<div>
 					 <img src='images/chair.png'/>
-					 <a href='product.php?product_id=". $product_details['id']."'>".$product."</a>
+					 <a href='product.php?product_id=". $product ."'>".$product."</a>
 					 <span> from " . $min_price . "</span>
 				
 				</div>"	;		
