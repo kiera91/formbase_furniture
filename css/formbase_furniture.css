@@ -191,6 +191,10 @@ header{
 	background-color:#2fa0d9;
 }
 
+.individual_category{
+	
+}
+
 .individual_category div:hover{
 	background-color:#2fa0d9;
 }
@@ -201,13 +205,24 @@ header{
 	display:inline-block;
 	vertical-align:middle;
 	margin-right:10px;
-}
+}	
 
 .individual_category div{
 	width: 80%;
 	padding: 3% 0 3% 1%;
 	border: 2px solid black;
 	display:inline-block;
+}
+
+.individual_category span{
+	background-color:#e53439;
+	color:#FFFFFF;
+	width:100px;
+	height:30px;
+	text-align:center;
+	display:inline-block;
+	padding-top:5px;
+	border-radius:5px;
 }
 
 #welcome_text {

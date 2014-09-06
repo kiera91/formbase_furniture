@@ -36,6 +36,7 @@
 				$product_array[$row['description']][$row['product_id']][$row['size_mm']] = $row['q1_sale_price'];
 			}
 		}
+		
 		foreach($product_array as $product => $product_details){
 			$min_prices = array();	
 					
