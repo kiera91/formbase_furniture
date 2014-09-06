@@ -1,4 +1,9 @@
-<?php include 'queries/get_categories.php'; ?>
+<?php include 'queries/get_categories.php';
+	if (isset($_GET["category"])){
+		$category = $_GET['category'];
+	}
+
+?>
 
 <!DOCTYPE html>
 <html>
@@ -12,9 +17,9 @@
 				
 				<?php include ('sidebar.php'); ?>
 						
-				<div id="content" class="category">
+				<div id="content" class="individual_category">
 					<?php 
-						getAllCategories();
+						getCategory($category);
 					?>	
 				</div>
 			

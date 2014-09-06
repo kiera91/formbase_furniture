@@ -170,11 +170,15 @@ header{
 	background-color: #f8f8f8;    
 }
 
-.category{
+.category, .individual_category{
 	padding-top:3%;	
-	text-align:center;
 	padding-bottom:3%;
 }
+
+.category{
+	text-align:center;
+}
+
 .category a {
 	width: 40%;
 	text-align:center;
@@ -186,6 +190,26 @@ header{
 .category a:hover{
 	background-color:#2fa0d9;
 }
+
+.individual_category div:hover{
+	background-color:#2fa0d9;
+}
+
+.individual_category img{
+	height:60px;
+	width:60px;
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:10px;
+}
+
+.individual_category div{
+	width: 80%;
+	padding: 3% 0 3% 1%;
+	border: 2px solid black;
+	display:inline-block;
+}
+
 #welcome_text {
 	padding:20px;
 }
