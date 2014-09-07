@@ -13,7 +13,7 @@
 		$result = mysql_query($query) or die(mysql_error());
 		
 		while($row = mysql_fetch_array($result, MYSQL_ASSOC)){
-			echo "<a href='category.php?category=". $row['product_type_code']."'>".$row['product_type']."</a> "	;		
+			echo "<a href='category.php?category=". $row['product_type_code']."&title=".$row['product_type']."'>".$row['product_type']."</a> "	;		
 		}
 	}
 	

@@ -163,11 +163,21 @@ header{
 	margin:0 auto; 	
 }
 
+#title_bar{
+	display:inline-block;
+	vertical-align: top;
+	padding-top:3%;
+}
+
+#title_bar p{
+	line-height:15px;
+	text-align:center;
+}
+
 #content{
 	width:65%;
 	display:inline-block;
 	vertical-align: top;
-	background-color: #f8f8f8;    
 }
 
 .category, .individual_category{
@@ -177,6 +187,7 @@ header{
 
 .category{
 	text-align:center;
+	background-color: #f8f8f8;    
 }
 
 .category a {
@@ -192,7 +203,7 @@ header{
 }
 
 .individual_category{
-	
+
 }
 
 .individual_category div:hover{
@@ -208,10 +219,12 @@ header{
 }	
 
 .individual_category div{
-	width: 80%;
+	width: 100%;
 	padding: 3% 0 3% 1%;
 	border: 2px solid black;
 	display:inline-block;
+	margin-bottom:10px;
+	background-color: #f8f8f8;    
 }
 
 .individual_category span{
@@ -223,6 +236,17 @@ header{
 	display:inline-block;
 	padding-top:5px;
 	border-radius:5px;
+	float:right;
+	margin-right:3%;
+}
+
+#title_bar{
+	border:none;
+	padding-top:5%;	
+}
+
+#title_bar:hover{
+	background-color:#f8f8f8;
 }
 
 #welcome_text {
