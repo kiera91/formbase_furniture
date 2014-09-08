@@ -28,7 +28,7 @@
 								<text id="outer"><?php echo $title;?></text>
 								<br>
 								<br>
-								<label style='font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;font-size:32px;color:#3c3c3c;font-style:normal;font-weight:bold;'>
+								<label style='font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;font-size:32px;color:#3c3c3c;font-style:italic;font-weight:normal	;'>
 									<text id="inner"><?php echo $title;?></text>
 								</label>
 							</label>
